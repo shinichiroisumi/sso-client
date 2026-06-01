@@ -19,7 +19,6 @@ import { SSOClient } from '@shinichiroisumi/sso-client';
 
 const sso = new SSOClient({
   ssoServerUrl: 'https://sso.company.com',
-  appId: 'my-app-id',
   debug: false
 });
 ```
@@ -30,8 +29,7 @@ const sso = new SSOClient({
 <script src="node_modules/@shinichiroisumi/sso-client/index.js"></script>
 <script>
   const sso = new SSOClient({
-    ssoServerUrl: 'https://sso.company.com',
-    appId: 'my-app-id'
+    ssoServerUrl: 'https://sso.company.com'
   });
 </script>
 ```
@@ -82,8 +80,7 @@ init();
     <script src="node_modules/@shinichiroisumi/sso-client/index.js"></script>
     <script>
         const sso = new SSOClient({
-            ssoServerUrl: 'https://sso.company.com',
-            appId: 'my-app'
+            ssoServerUrl: 'https://sso.company.com'
         });
 
         async function init() {

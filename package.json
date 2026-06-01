@@ -1,6 +1,6 @@
 {
   "name": "@shinichiroisumi/sso-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SSO Client Library for Enterprise Authentication",
   "main": "index.js",
   "module": "index.js",
